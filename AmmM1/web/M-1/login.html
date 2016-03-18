@@ -2,27 +2,34 @@
  
 <html>
     <head>
-        <title>Login</title>
+        <title>You Trek: Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="You Trek, Trekking, E-Commerce, Escursionismo">
+        <meta name="description" content="Youtrek.com - Il tuo E-commerce personale per vendere e acquistare tutto ciò che riguarda il moondo del trekking. Pagina login">
+        <meta name="author" content="Massimo Carrus">
     </head>
     <body>
- 
-        <form action="login.html" method="get">
-            <label for="user">Username</label>
-            <input type="text" name="user" id="user"/>
-            <br />
-            <label for="pwd">Password</label>
-            <input type="password" name="pwd" id="pwd"/>
-    
-        <input type="submit" value="Login"/>
-        </form>
-        <ul>
-            <li><a href="descrizione.html">descrizione</a></li>
-            <li><a href="cliente.html">cliente</a></li>
-            <li><a href="venditore.html">Venditore</a></li>
-               
-        </ul>
+        
+        <!--Form Username Password -->
+        <div> 
+            <form action="login.html" method="post">
+                <label for="user">Username</label>
+                <input type="text" name="user" id="user" value="username"/>
+                <label for="pwd">Password</label>
+                <input type="password" name="pwd" id="pwd" value="oscurato"/>
+                <input type="submit" value="Login"/>
+            </form>
+        </div>
+        
+        <!--sezione di navigazione -->
+        <div>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="cliente.html">Cliente</a></li>
+                <li><a href="venditore.html">Venditore</a></li>
+            </ul>
+        </div>
        
-</body>
+    </body>
 </html>

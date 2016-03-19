@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>You Trek: Venditore</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="You Trek, Trekking, E-Commerce, Escursionismo">
+        <meta name="description" content="Youtrek.com - Il tuo E-commerce personale per vendere e acquistare tutto ciò che riguarda il mondo del trekking - Pagina Venditore">
+        <meta name="author" content="Massimo Carrus">
     </head>
     <body>
+        <!--form nuovo oggetto -->
+        <div>
+            <form action="venditore.html" method="post">
+                <label for="oggetto">Nome Oggetto:</label>
+                <input type="text" name="oggetto" id="oggetto"/>
+                <label for="immagine">URL Immagine:</label>
+                <input type="url" name="immagine" id="immagine"/>
+                <label for="descrizione">Descrizione:</label>
+                <textarea rows="10" cols="40" name="descrizione" id="descrizione">Inserisci qui la descrizione del prodotto</textarea>
+                <label for="prezzo">Prezzo:</label>
+                <input type="number" name="prezzo" id="prezzo" />
+                <label for="quantità">Quantità disponibile:</label>
+                <input type="number" name="quantità" id="quantità"/>
+                <input type="submit" value="Inserisci"/>
+            </form>  
+        </div>
         <!--sezione di navigazione -->
         <div>
             <ul>
